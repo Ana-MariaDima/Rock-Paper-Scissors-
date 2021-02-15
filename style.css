@@ -1,0 +1,89 @@
+*{
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:mintcream;
+    
+}
+ h1,h2{
+     text-align: center;
+     font-family: sans-serif;
+     font-weight: 800;
+ }
+ h1{
+     font-size: 60px;
+ }
+
+ h2{
+     font-size: 50px;
+ }
+ h3, span{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+ }
+
+ 
+
+
+#jucator{
+    grid-area:zona_jucator;
+
+
+
+}
+
+#pc{
+    grid-area: zona_pc;
+    
+
+}
+.sectiune{
+    padding: top 20px;
+
+    text-align: center;
+    padding: 1%;
+    border: 5px solid palegreen;
+    height: 400px;
+    justify-content: center;
+    width: 400px;
+
+
+
+}
+
+#grid-container {
+    display: grid;
+    width: 60%;
+    margin-left: 20%;
+    grid-template-areas: "zona_jucator . zona_pc";
+    
+    /*border: 10px solid blue;*/
+  }
+
+.selectie{
+
+    text-align: center;
+
+
+
+
+}
+
+
+.show i{
+    font-size: 200px;
+    color: orange;
+}
+button{
+    font-size: 70px;
+    color: orange;
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
